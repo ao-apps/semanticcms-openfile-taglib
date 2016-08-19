@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
+Copyright (C) 2013, 2014, 2015, 2016  AO Industries, Inc.
+	support@aoindustries.com
+	7262 Bull Pen Cir
+	Mobile, AL 36695
+
+This file is part of semanticcms-openfile-taglib.
+
+semanticcms-openfile-taglib is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+semanticcms-openfile-taglib is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<taglib version="2.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd">
+	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
+	<display-name>semanticcms-openfile-taglib</display-name>
+	<tlib-version>1.0</tlib-version>
+	<short-name>openfile</short-name>
+	<uri>https://semanticcms.com/semanticcms-openfile-taglib</uri>
+	<tag>
+		<description><![CDATA[
+			Opens a file from the servlet container.
+			This opens the file from the server-side so that the proper application
+			may be launched with the local file, allowing direct editing and saving.
+			This feature must be explicitely enabled in the OpenFileTag context init parameter.
+			This may only be called from localhost.
+		]]></description>
+		<name>openFile</name>
+		<tag-class>com.semanticcms.openfile.taglib.OpenFileTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description><![CDATA[
+				The book containing the file.
+				Defaults to the book of the current JSP file.
+			]]></description>
+			<name>book</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+		</attribute>
+		<attribute>
+			<description><![CDATA[
+				The context-relative path to the file.
+			]]></description>
+			<name>path</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+		</attribute>
+	</tag>
+</taglib>
