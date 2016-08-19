@@ -32,7 +32,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<ao:script src="/semanticcms-openfile-servlet/scripts.js" />
 		<c:if test="${!header['X-com-aoindustries-web-page-exporting']}">
 			<ao:script>
-				semanticcms_openfile_servlet.openFileUrl = <ao:out value="${ao:encodeURL(pageContext.request.contextPath.concat('/semanticcms-oppenfile-servlet/ajax/open-file'))}" />;
+				semanticcms_openfile_servlet.openFileUrl = <ao:out value="${ao:encodeURL(pageContext.request.contextPath.concat('/semanticcms-openfile-servlet/ajax/open-file'))}" />;
 			</ao:script>
 		</c:if>
 	</c:if>
