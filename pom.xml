@@ -39,15 +39,6 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<url>https://semanticcms.com/docs/semanticcms-openfile-taglib/</url>
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
 
-	<developers>
-		<developer>
-			<name>AO Industries, Inc.</name>
-			<email>support@aoindustries.com</email>
-			<organization>AO Industries, Inc.</organization>
-			<organizationUrl>https://www.aoindustries.com/</organizationUrl>
-		</developer>
-	</developers>
-
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-taglib.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-openfile-taglib.git</developerConnection>
