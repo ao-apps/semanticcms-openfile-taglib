@@ -39,13 +39,6 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<url>https://semanticcms.com/docs/semanticcms-openfile-taglib/</url>
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
 
-	<licenses>
-		<license>
-			<name>GNU General Lesser Public License (LGPL) version 3.0</name>
-			<url>https://www.gnu.org/licenses/lgpl-3.0.txt</url>
-		</license>
-	</licenses>
-
 	<developers>
 		<developer>
 			<name>AO Industries, Inc.</name>
