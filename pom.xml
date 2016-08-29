@@ -32,7 +32,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-openfile-taglib</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS OpenFile Taglib</name>
@@ -43,7 +43,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-taglib.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-openfile-taglib.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-openfile-taglib</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-openfile-taglib-1.2</tag>
 	</scm>
 
 	<dependencies>
