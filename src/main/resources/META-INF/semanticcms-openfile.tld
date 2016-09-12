@@ -26,7 +26,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<display-name>semanticcms-openfile-taglib</display-name>
 	<tlib-version>1.0</tlib-version>
 	<short-name>openfile</short-name>
-	<uri>https://semanticcms.com/semanticcms-openfile-taglib</uri>
+	<uri>https://semanticcms.com/openfile/taglib/</uri>
 	<tag>
 		<description><![CDATA[
 			Opens a file from the servlet container.
