@@ -38,6 +38,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<name>SemanticCMS OpenFile Taglib</name>
 	<url>https://semanticcms.com/openfile/taglib/</url>
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
+	<inceptionYear>2013</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-taglib.git</connection>
