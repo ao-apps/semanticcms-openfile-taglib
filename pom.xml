@@ -27,7 +27,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms-openfile</artifactId>
-		<version>1.3.1-SNAPSHOT</version>
+		<version>1.3.1</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -119,7 +119,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-servlet</artifactId>
-			<version>1.5.1-SNAPSHOT</version>
+			<version>1.5.1</version>
 		</dependency>
 	</dependencies>
 </project>
