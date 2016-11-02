@@ -27,7 +27,10 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	version="2.1">
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
 	<display-name>semanticcms-openfile-taglib</display-name>
-	<tlib-version>1.0</tlib-version>
+	<tlib-version>
+		<!-- Release: @{project.version} -->
+		@{parsedVersion.majorVersion}.@{parsedVersion.minorVersion}.@{parsedVersion.incrementalVersion}
+	</tlib-version>
 	<short-name>openfile</short-name>
 	<uri>https://semanticcms.com/openfile/taglib/</uri>
 	<tag>
