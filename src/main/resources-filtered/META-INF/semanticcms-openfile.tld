@@ -32,7 +32,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		@{parsedVersion.majorVersion}.@{parsedVersion.minorVersion}.@{parsedVersion.incrementalVersion}
 	</tlib-version>
 	<short-name>openfile</short-name>
-	<uri>${project.url}</uri>
+	<uri>@{project.url}</uri>
 	<tag>
 		<description><![CDATA[
 			Opens a file from the servlet container.
