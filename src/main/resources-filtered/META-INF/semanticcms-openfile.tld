@@ -25,7 +25,9 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
 	version="2.1">
-	<description>@{project.description}</description>
+	<description><![CDATA[
+		<p>@{project.description}</p>
+	]]></description>
 	<display-name>@{project.name}</display-name>
 	<tlib-version>
 		<!-- Release: @{project.version} -->
@@ -35,19 +37,23 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<uri>@{project.url}</uri>
 	<tag>
 		<description><![CDATA[
-			Opens a file from the servlet container.
-			This opens the file from the server-side so that the proper application
-			may be launched with the local file, allowing direct editing and saving.
-			This feature must be explicitely enabled in the OpenFileTag context init parameter.
-			This may only be called from localhost.
+			<p>
+				Opens a file from the servlet container.
+				This opens the file from the server-side so that the proper application
+				may be launched with the local file, allowing direct editing and saving.
+				This feature must be explicitely enabled in the OpenFileTag context init parameter.
+				This may only be called from localhost.
+			</p>
 		]]></description>
 		<name>openFile</name>
 		<tag-class>com.semanticcms.openfile.taglib.OpenFileTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<description><![CDATA[
-				The book containing the file.
-				Defaults to the book of the current JSP file.
+				<p>
+					The book containing the file.
+					Defaults to the book of the current JSP file.
+				</p>
 			]]></description>
 			<name>book</name>
 			<required>false</required>
@@ -56,7 +62,9 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		</attribute>
 		<attribute>
 			<description><![CDATA[
-				The context-relative path to the file.
+				<p>
+					The context-relative path to the file.
+				</p>
 			]]></description>
 			<name>path</name>
 			<required>true</required>
