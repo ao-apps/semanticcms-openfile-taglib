@@ -36,13 +36,12 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<packaging>jar</packaging>
 
 	<properties>
-		<bookPath>/openfile/taglib</bookPath>
 		<shortTitle>Taglib</shortTitle>
 		<description.html><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a> desktop integration mode for local content creation in a JSP environment.]]></description.html>
 	</properties>
 
 	<name>SemanticCMS OpenFile Taglib</name>
-	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
+	<url>https://semanticcms.com/openfile/taglib/</url>
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
 	<inceptionYear>2013</inceptionYear>
 
