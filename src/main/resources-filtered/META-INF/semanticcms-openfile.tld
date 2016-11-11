@@ -37,7 +37,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<uri>@{project.url}</uri>
 	<tag>
 		<description><![CDATA[
-			<p>
+			<p class="semanticcms-tag-reference-summary">
 				Opens a file from the servlet container.
 				This opens the file from the server-side so that the proper application
 				may be launched with the local file, allowing direct editing and saving.
@@ -49,7 +49,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 			</p>
 			<p>
 				For security, this may only be called from localhost.  However, be careful
-				if behind a proxy, as proxy requests can appear to come from localhost.
+				when behind a proxy, as external proxied requests can appear to come from localhost.
 			</p>
 		]]></description>
 		<name>openFile</name>
