@@ -69,6 +69,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 							<artifactId>maven-javadoc-plugin</artifactId>
 							<configuration>
 								<links>
+									<link>${javac.link.javaApi}</link>
 									<link>${javac.link.javaeeApi.6}</link>
 									<link>https://semanticcms.com/openfile/servlet/apidocs/</link>
 								</links>
