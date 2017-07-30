@@ -33,7 +33,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-openfile-taglib</artifactId>
-	<version>1.5.4-SNAPSHOT</version>
+	<version>1.5.4-validation-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -97,7 +97,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-openfile-servlet</artifactId>
-			<version>1.5.3</version>
+			<version>1.5.4-validation-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
