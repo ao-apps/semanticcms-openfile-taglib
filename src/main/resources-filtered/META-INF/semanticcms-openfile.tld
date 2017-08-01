@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
-Copyright (C) 2013, 2014, 2015, 2016  AO Industries, Inc.
+Copyright (C) 2013, 2014, 2015, 2016, 2017  AO Industries, Inc.
 	support@aoindustries.com
 	7262 Bull Pen Cir
 	Mobile, AL 36695
@@ -56,6 +56,18 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<name>openFile</name>
 		<tag-class>com.semanticcms.openfile.taglib.OpenFileTag</tag-class>
 		<body-content>empty</body-content>
+		<attribute>
+			<description><![CDATA[
+				<p>
+					The domain of the book containing the file.
+					Defaults to the domain of the current JSP file.
+				</p>
+			]]></description>
+			<name>domain</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+		</attribute>
 		<attribute>
 			<description><![CDATA[
 				<p>
