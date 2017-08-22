@@ -22,7 +22,9 @@
  */
 package com.semanticcms.openfile.taglib;
 
+import com.aoindustries.net.DomainName;
 import com.aoindustries.net.Path;
+import com.aoindustries.util.StringUtility;
 import com.aoindustries.validation.ValidationException;
 import com.semanticcms.openfile.servlet.OpenFile;
 import java.io.IOException;
@@ -36,19 +38,19 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 public class OpenFileTag extends SimpleTagSupport {
 
-	private String domain;
-	public void setDomain(String domain) {
-		this.domain = domain;
+	private DomainName domain;
+	public void setDomain(String domain) throws ValidationException {
+		this.domain = DomainName.valueOf(StringUtility.nullIfEmpty(domain));
 	}
 
-	private String book;
-	public void setBook(String book) {
-		this.book = book;
+	private Path book;
+	public void setBook(String book) throws ValidationException {
+		this.book = Path.valueOf(StringUtility.nullIfEmpty(book));
 	}
 
-	private String path;
-	public void setPath(String path) {
-		this.path = path;
+	private Path path;
+	public void setPath(String path) throws ValidationException {
+		this.path = Path.valueOf(StringUtility.nullIfEmpty(path));
 	}
 
 	@Override
@@ -60,12 +62,10 @@ public class OpenFileTag extends SimpleTagSupport {
 				(HttpServletRequest)pageContext.getRequest(),
 				(HttpServletResponse)pageContext.getResponse(),
 				domain,
-				Path.valueOf(book),
-				Path.valueOf(path)
+				book,
+				path
 			);
 		} catch(ServletException e) {
-			throw new JspTagException(e);
-		} catch(ValidationException e) {
 			throw new JspTagException(e);
 		}
 	}
