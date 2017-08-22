@@ -22,6 +22,8 @@
  */
 package com.semanticcms.openfile.taglib;
 
+import com.aoindustries.net.Path;
+import com.aoindustries.validation.ValidationException;
 import com.semanticcms.openfile.servlet.OpenFile;
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -58,10 +60,12 @@ public class OpenFileTag extends SimpleTagSupport {
 				(HttpServletRequest)pageContext.getRequest(),
 				(HttpServletResponse)pageContext.getResponse(),
 				domain,
-				book,
-				path
+				Path.valueOf(book),
+				Path.valueOf(path)
 			);
 		} catch(ServletException e) {
+			throw new JspTagException(e);
+		} catch(ValidationException e) {
 			throw new JspTagException(e);
 		}
 	}
