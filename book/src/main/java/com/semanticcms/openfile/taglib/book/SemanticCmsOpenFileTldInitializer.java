@@ -22,6 +22,10 @@
  */
 package com.semanticcms.openfile.taglib.book;
 
+import com.aoindustries.net.Path;
+import com.aoindustries.validation.ValidationException;
+import com.semanticcms.core.model.BookRef;
+import com.semanticcms.core.model.ResourceRef;
 import com.semanticcms.tagreference.TagReferenceInitializer;
 import java.util.Collections;
 
@@ -30,13 +34,17 @@ import java.util.Collections;
  */
 public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
-	public SemanticCmsOpenFileTldInitializer() {
+	public SemanticCmsOpenFileTldInitializer() throws ValidationException {
 		super(
 			"OpenFile Taglib Reference",
 			"Taglib Reference",
-			"semanticcms.com",
-			"/openfile/taglib",
-			"/semanticcms-openfile.tld",
+			new ResourceRef(
+				new BookRef(
+					"semanticcms.com",
+					Path.valueOf("/openfile/taglib")
+				),
+				Path.valueOf("/semanticcms-openfile.tld")
+			),
 			Maven.properties.getProperty("javac.link.javaApi.jdk16"),
 			Maven.properties.getProperty("javac.link.javaeeApi.6"),
 			Collections.singletonMap("com.semanticcms.openfile.taglib.", Maven.properties.getProperty("documented.url") + "apidocs/")
