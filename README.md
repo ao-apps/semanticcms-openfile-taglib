@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [OpenFile](https://semanticcms.com/openfile/) / [Taglib](https://semanticcms.com/openfile/taglib/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [OpenFile](https://github.com/aoindustries/semanticcms-openfile) / [Taglib](https://github.com/aoindustries/semanticcms-openfile-taglib)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-[SemanticCMS](https://semanticcms.com/) desktop integration mode for local content creation in a JSP environment.
+[SemanticCMS](https://github.com/aoindustries/semanticcms) desktop integration mode for local content creation in a JSP environment.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/taglib/)
