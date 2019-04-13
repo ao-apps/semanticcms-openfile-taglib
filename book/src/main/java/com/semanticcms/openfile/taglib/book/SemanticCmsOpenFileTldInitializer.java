@@ -1,6 +1,6 @@
 /*
  * semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
- * Copyright (C) 2016, 2017  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -38,7 +38,7 @@ public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 			"/semanticcms-openfile.tld",
 			Maven.properties.getProperty("javac.link.javaApi.jdk16"),
 			Maven.properties.getProperty("javac.link.javaeeApi.6"),
-			Collections.singletonMap("com.semanticcms.openfile.taglib.", Maven.properties.getProperty("documented.url") + "apidocs/")
+			Collections.singletonMap("com.semanticcms.openfile.taglib.", Maven.properties.getProperty("documented.url") + "apidocs")
 		);
 	}
 }
