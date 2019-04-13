@@ -29,7 +29,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.4-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.4-validation-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -84,7 +84,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.5.3</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.5.4-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
