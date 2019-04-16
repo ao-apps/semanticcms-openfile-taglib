@@ -41,7 +41,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<javadoc.taglibReference><![CDATA[<li><a target="_top" href="${project.url}semanticcms-openfile.tld/">Taglib Reference</a></li>]]></javadoc.taglibReference>
 	</properties>
 
-	<name>SemanticCMS 1 OpenFile Taglib</name>
+	<name>SemanticCMS OpenFile Taglib</name>
 	<url>https://semanticcms.com/openfile/taglib/</url>
 	<description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
 	<inceptionYear>2013</inceptionYear>
