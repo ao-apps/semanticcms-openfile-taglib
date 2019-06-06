@@ -37,7 +37,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T01:35:20-0500"
-		dateModified="2017-08-03T11:35:29-0500"
+		dateModified="2019-06-04T16:28:01-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-openfile-taglib:pom.version}" />
@@ -60,6 +60,13 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 								New optional attribute <code>domain</code> that defaults to the domain of the current page on
 								<core:link page="semanticcms-openfile.tld/tag-openFile" />.
 							</li>
+						</ol>
+					</li>
+					<li>Minimum Java version changed from 1.6 to 1.7.</li>
+					<li>Using managed dependencies:
+						<ol>
+							<li>This project uses transitive managed dependencies.</li>
+							<li>This project's managed dependencies may also be imported by other projects.</li>
 						</ol>
 					</li>
 				</ul>
