@@ -86,7 +86,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 			</dependency>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.6.1-SNAPSHOT</version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId><version>1.6.1-validation-SNAPSHOT</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
