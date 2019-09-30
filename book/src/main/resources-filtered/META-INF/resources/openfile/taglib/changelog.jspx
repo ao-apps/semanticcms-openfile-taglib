@@ -36,7 +36,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T01:35:20-0500"
-		dateModified="2019-06-22T04:04:59-0500"
+		dateModified="2019-09-02T03:59:06-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-openfile-taglib:pom.version}" />
@@ -51,7 +51,11 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 				groupId="@{documented.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{documented.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated for compatibility with <ao:a href="https://aoindustries.com/ao-lang/changelog#release-notes-3.0.1">ao-lang-3.0.1</ao:a>.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
