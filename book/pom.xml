@@ -29,38 +29,34 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<relativePath>../../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib-book</artifactId><version>1.5.5-POST-SNAPSHOT</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib-book</artifactId><version>1.5.6-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<properties>
 		<!-- These values are copied from the project being documented -->
-		<documented.groupId>com.semanticcms</documented.groupId><documented.artifactId>semanticcms-openfile-taglib</documented.artifactId>
+		<documented.artifactId>semanticcms-openfile-taglib</documented.artifactId>
 		<documented.javaVersion>1.8</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk8}</documented.javac.link.javaApi>
 		<documented.name>SemanticCMS OpenFile Taglib</documented.name>
 		<documented.shortTitle>Taglib</documented.shortTitle>
-		<documented.url>https://semanticcms.com/openfile/taglib/</documented.url>
 		<documented.description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</documented.description>
-		<documented.inceptionYear>2013</documented.inceptionYear>
-		<documented.scm.url>https://github.com/aoindustries/${documented.artifactId}</documented.scm.url>
 
 		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="_top" href="https://semanticcms.com/openfile/">OpenFile</a>
 / <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
 		<shortTitle>Taglib Book</shortTitle>
-		<description.html><![CDATA[Documentation for <a target="_top" href="${documented.url}">${documented.name}</a> in <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
+		<description.html><![CDATA[Documentation for <a target="_top" href="${project.url}">${documented.name}</a> in <a target="_top" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
 	</properties>
 
-	<name>${documented.name} Book</name>
-	<url>${documented.url}</url>
-	<description>Documentation for ${documented.name} in SemanticCMS format.</description>
-	<inceptionYear>${documented.inceptionYear}</inceptionYear>
+	<name>SemanticCMS OpenFile Taglib Book</name>
+	<url>https://semanticcms.com/openfile/taglib/</url>
+	<description>Documentation for SemanticCMS OpenFile Taglib in SemanticCMS format.</description>
+	<inceptionYear>2013</inceptionYear>
 
 	<scm>
-		<!-- Can't inherit due to multi-module -->
-		<connection>scm:git:git://github.com/aoindustries/${documented.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/${documented.artifactId}.git</developerConnection>
-		<url>${documented.scm.url}</url>
+		<connection>scm:git:git://github.com/aoindustries/semanticcms-openfile-taglib.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-openfile-taglib.git</developerConnection>
+		<url>https://github.com/aoindustries/semanticcms-openfile-taglib</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -79,7 +75,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.5${POST-SNAPSHOT}</version>
+									<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.6-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 									<type>jar</type>
 									<includes>META-INF/semanticcms-openfile.tld</includes>
 								</artifactItem>
@@ -139,7 +135,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		<dependencies>
 			<!-- Java EE -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.0${POST-SNAPSHOT}</version>
+				<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>6.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -186,7 +182,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 		</dependency>
 		<!-- Dependency for dependencyversion-maven-plugin only -->
 		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.5-POST-SNAPSHOT</version>
+			<groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-taglib</artifactId><version>1.5.6-SNAPSHOT</version>
 			<type>pom</type>
 			<scope>provided</scope>
 			<optional>true</optional>
