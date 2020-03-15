@@ -1,6 +1,6 @@
 /*
  * semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,7 +22,7 @@
  */
 package com.semanticcms.openfile.taglib;
 
-import com.aoindustries.util.StringUtility;
+import com.aoindustries.lang.Strings;
 import com.semanticcms.openfile.servlet.OpenFile;
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -37,12 +37,12 @@ public class OpenFileTag extends SimpleTagSupport {
 
 	private String book;
 	public void setBook(String book) {
-		this.book = StringUtility.nullIfEmpty(book);
+		this.book = Strings.nullIfEmpty(book);
 	}
 
 	private String path;
 	public void setPath(String path) {
-		this.path = StringUtility.nullIfEmpty(path);
+		this.path = Strings.nullIfEmpty(path);
 	}
 
 	@Override
