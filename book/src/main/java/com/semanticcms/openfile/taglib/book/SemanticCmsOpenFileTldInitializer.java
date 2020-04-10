@@ -34,7 +34,7 @@ public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 			"/openfile/taglib",
 			"/semanticcms-openfile.tld",
 			Maven.properties.getProperty("documented.javadoc.link.javase"),
-			Maven.properties.getProperty("javadoc.link.javaee.6"),
+			Maven.properties.getProperty("documented.javadoc.link.javaee"),
 			Collections.singletonMap("com.semanticcms.openfile.taglib.", Maven.properties.getProperty("project.url") + "apidocs/")
 		);
 	}
