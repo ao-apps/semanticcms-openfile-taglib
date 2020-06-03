@@ -23,7 +23,6 @@
 package com.semanticcms.openfile.taglib.book;
 
 import com.semanticcms.tagreference.TagReferenceInitializer;
-import java.util.Collections;
 
 public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
@@ -37,7 +36,7 @@ public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 			Maven.properties.getProperty("documented.javadoc.link.javase"),
 			Maven.properties.getProperty("documented.javadoc.link.javaee"),
 			// Self
-			Collections.singletonMap("com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/")
+			"com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/"
 		);
 	}
 }
