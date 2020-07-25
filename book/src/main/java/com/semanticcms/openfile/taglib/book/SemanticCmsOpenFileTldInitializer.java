@@ -33,7 +33,7 @@ public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
 	public SemanticCmsOpenFileTldInitializer() throws ValidationException {
 		super(
-			Maven.properties.getProperty("project.name") + " Reference",
+			Maven.properties.getProperty("documented.name") + " Reference",
 			"Taglib Reference",
 			new ResourceRef(
 				new BookRef(
