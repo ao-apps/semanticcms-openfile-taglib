@@ -28,7 +28,7 @@ public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
 	public SemanticCmsOpenFileTldInitializer() {
 		super(
-			Maven.properties.getProperty("project.name") + " Reference",
+			Maven.properties.getProperty("documented.name") + " Reference",
 			"Taglib Reference",
 			"/openfile/taglib",
 			"/semanticcms-openfile.tld",
