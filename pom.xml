@@ -253,7 +253,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 				<groupId>com.aoindustries</groupId><artifactId>ao-servlet-firewall-webjars</artifactId><version>1.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>org.webjars</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
+				<groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.5.1</version>
 			</dependency>
 			<!-- javaee-web-api-bom: <groupId>org.glassfish.web</groupId><artifactId>jstl-impl</artifactId> -->
 			<!-- BOM -->
