@@ -22,9 +22,9 @@
  */
 package com.semanticcms.openfile.taglib;
 
+import com.aoindustries.lang.Strings;
 import com.aoindustries.net.DomainName;
 import com.aoindustries.net.Path;
-import com.aoindustries.lang.Strings;
 import com.aoindustries.validation.ValidationException;
 import com.semanticcms.openfile.servlet.OpenFile;
 import java.io.IOException;
