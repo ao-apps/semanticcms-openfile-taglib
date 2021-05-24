@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
-Copyright (C) 2013, 2014, 2015, 2016, 2017, 2019  AO Industries, Inc.
+Copyright (C) 2013, 2014, 2015, 2016, 2017, 2019, 2021  AO Industries, Inc.
 	support@aoindustries.com
 	7262 Bull Pen Cir
 	Mobile, AL 36695
@@ -25,8 +25,8 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
 	version="2.1">
-	<!-- datePublished="2016-08-19T11:42:19-0500" -->
-	<!-- dateModified="2016-11-11T13:37:17-0600" -->
+	<!-- datePublished="2016-08-19T11:42:19-05:00" -->
+	<!-- dateModified="2016-11-11T13:37:17-06:00" -->
 	<description><![CDATA[
 		<p>@{description.html}</p>
 	]]></description>
@@ -38,8 +38,8 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<short-name>openfile</short-name>
 	<uri>@{project.url}</uri>
 	<tag>
-		<!-- datePublished="2016-08-19T11:42:19-0500" -->
-		<!-- dateModified="2016-11-11T14:05:05-0600" -->
+		<!-- datePublished="2016-08-19T11:42:19-05:00" -->
+		<!-- dateModified="2016-11-11T14:05:05-06:00" -->
 		<description><![CDATA[
 			<p class="semanticcms-tag-reference-summary">
 				Opens a file from the servlet container.
