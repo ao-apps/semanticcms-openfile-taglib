@@ -1,6 +1,6 @@
 /*
  * semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
- * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020  AO Industries, Inc.
+ * Copyright (C) 2013, 2014, 2015, 2016, 2017, 2020, 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,10 +22,10 @@
  */
 package com.semanticcms.openfile.taglib;
 
-import com.aoindustries.lang.Strings;
-import com.aoindustries.net.DomainName;
-import com.aoindustries.net.Path;
-import com.aoindustries.validation.ValidationException;
+import com.aoapps.lang.Strings;
+import com.aoapps.lang.validation.ValidationException;
+import com.aoapps.net.DomainName;
+import com.aoapps.net.Path;
 import com.semanticcms.openfile.servlet.OpenFile;
 import java.io.IOException;
 import javax.servlet.ServletException;
