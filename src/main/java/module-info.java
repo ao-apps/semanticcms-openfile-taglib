@@ -1,6 +1,6 @@
 /*
  * semanticcms-openfile-taglib - SemanticCMS desktop integration mode for local content creation in a JSP environment.
- * Copyright (C) 2016, 2017, 2019, 2020, 2021  AO Industries, Inc.
+ * Copyright (C) 2021  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -20,23 +20,11 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/licenses/>.
  */
-package com.semanticcms.openfile.taglib.book;
-
-import com.semanticcms.tagreference.TagReferenceInitializer;
-
-public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
-
-	public SemanticCmsOpenFileTldInitializer() {
-		super(
-			Maven.properties.getProperty("documented.name") + " Reference",
-			"Taglib Reference",
-			"/openfile/taglib",
-			"/semanticcms-openfile.tld",
-			true,
-			Maven.properties.getProperty("documented.javadoc.link.javase"),
-			Maven.properties.getProperty("documented.javadoc.link.javaee"),
-			// Self
-			"com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/com.semanticcms.openfile.taglib/"
-		);
-	}
+module com.semanticcms.openfile.taglib {
+	exports com.semanticcms.openfile.taglib;
+	// Direct
+	requires com.aoapps.lang; // <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId>
+	requires javax.servlet.api; // <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
+	requires javax.servlet.jsp.api; // <groupId>javax.servlet.jsp</groupId><artifactId>javax.servlet.jsp-api</artifactId>
+	requires com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
 }

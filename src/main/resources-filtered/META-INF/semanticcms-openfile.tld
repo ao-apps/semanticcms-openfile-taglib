@@ -39,7 +39,7 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 	<uri>@{project.url}</uri>
 	<tag>
 		<!-- datePublished="2016-08-19T11:42:19-05:00" -->
-		<!-- dateModified="2016-11-11T14:05:05-06:00" -->
+		<!-- dateModified="2021-06-16T13:20:50-05:00" -->
 		<description><![CDATA[
 			<p class="semanticcms-tag-reference-summary">
 				Opens a file from the servlet container.
@@ -47,12 +47,12 @@ along with semanticcms-openfile-taglib.  If not, see <http://www.gnu.org/license
 				may be launched with the local file, allowing direct editing and saving.
 			</p>
 			<p>
-				<a href="https://semanticcms.com/openfile/servlet/apidocs/com/semanticcms/openfile/servlet/OpenFile.html">OpenFile</a>
+				<a href="https://semanticcms.com/openfile/servlet/apidocs/com.semanticcms.openfile.servlet/com/semanticcms/openfile/servlet/OpenFile.html">OpenFile</a>
 				must be explicitly enabled by setting the <code>com.semanticcms.openfile.servlet.OpenFile.enabled</code>
 				context parameter to <code>true</code>.
 			</p>
 			<p>
-				For security, <a href="https://semanticcms.com/openfile/servlet/apidocs/com/semanticcms/openfile/servlet/OpenFile.html">OpenFile</a>
+				For security, <a href="https://semanticcms.com/openfile/servlet/apidocs/com.semanticcms.openfile.servlet/com/semanticcms/openfile/servlet/OpenFile.html">OpenFile</a>
 				may only be called from localhost.  However, be careful when behind a proxy,
 				as external proxied requests can appear to come from localhost.
 			</p>
