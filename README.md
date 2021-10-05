@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [OpenFile](https://github.com/aoindustries/semanticcms-openfile) / [Taglib](https://github.com/aoindustries/semanticcms-openfile-taglib)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [SemanticCMS](https://github.com/ao-apps/semanticcms) / [OpenFile](https://github.com/ao-apps/semanticcms-openfile) / [Taglib](https://github.com/ao-apps/semanticcms-openfile-taglib)
 
 [![project: current stable](https://semanticcms.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://semanticcms.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -8,7 +8,7 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/semanticcms-openfile-taglib/workflows/Build/badge.svg?branch=1.x)](https://github.com/aoindustries/semanticcms-openfile-taglib/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/semanticcms-openfile-taglib/workflows/Build/badge.svg?branch=1.x)](https://github.com/ao-apps/semanticcms-openfile-taglib/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-openfile-taglib/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-openfile-taglib)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-taglib&metric=alert_status)](https://sonarcloud.io/dashboard?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-taglib)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-taglib&metric=ncloc)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-taglib&metric=ncloc)  
@@ -17,7 +17,7 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-taglib&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-taglib&metric=Maintainability)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?branch=1.x&project=com.semanticcms%3Asemanticcms-openfile-taglib&metric=coverage)](https://sonarcloud.io/component_measures?branch=1.x&id=com.semanticcms%3Asemanticcms-openfile-taglib&metric=Coverage)
 
-[SemanticCMS](https://github.com/aoindustries/semanticcms) desktop integration mode for local content creation in a JSP environment.
+[SemanticCMS](https://github.com/ao-apps/semanticcms) desktop integration mode for local content creation in a JSP environment.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/openfile/taglib/)
@@ -25,7 +25,7 @@
 * [Taglib Reference](https://semanticcms.com/openfile/taglib/semanticcms-openfile.tld/)
 * [API Docs](https://semanticcms.com/openfile/taglib/apidocs/)
 * [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-openfile-taglib)
-* [GitHub](https://github.com/aoindustries/semanticcms-openfile-taglib)
+* [GitHub](https://github.com/ao-apps/semanticcms-openfile-taglib)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
