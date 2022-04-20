@@ -32,22 +32,22 @@ import com.semanticcms.tagreference.TagReferenceInitializer;
 
 public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
-	public SemanticCmsOpenFileTldInitializer() throws ValidationException {
-		super(
-			Maven.properties.getProperty("documented.name") + " Reference",
-			"Taglib Reference",
-			new ResourceRef(
-				new BookRef(
-					DomainName.valueOf("semanticcms.com"),
-					Path.valueOf("/openfile/taglib")
-				),
-				Path.valueOf("/semanticcms-openfile.tld")
-			),
-			true,
-			Maven.properties.getProperty("documented.javadoc.link.javase"),
-			Maven.properties.getProperty("documented.javadoc.link.javaee"),
-			// Self
-			"com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/com.semanticcms.openfile.taglib/"
-		);
-	}
+  public SemanticCmsOpenFileTldInitializer() throws ValidationException {
+    super(
+      Maven.properties.getProperty("documented.name") + " Reference",
+      "Taglib Reference",
+      new ResourceRef(
+        new BookRef(
+          DomainName.valueOf("semanticcms.com"),
+          Path.valueOf("/openfile/taglib")
+        ),
+        Path.valueOf("/semanticcms-openfile.tld")
+      ),
+      true,
+      Maven.properties.getProperty("documented.javadoc.link.javase"),
+      Maven.properties.getProperty("documented.javadoc.link.javaee"),
+      // Self
+      "com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/com.semanticcms.openfile.taglib/"
+    );
+  }
 }
