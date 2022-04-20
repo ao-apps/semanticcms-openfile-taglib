@@ -27,17 +27,17 @@ import com.semanticcms.tagreference.TagReferenceInitializer;
 
 public class SemanticCmsOpenFileTldInitializer extends TagReferenceInitializer {
 
-	public SemanticCmsOpenFileTldInitializer() {
-		super(
-			Maven.properties.getProperty("documented.name") + " Reference",
-			"Taglib Reference",
-			"/openfile/taglib",
-			"/semanticcms-openfile.tld",
-			true,
-			Maven.properties.getProperty("documented.javadoc.link.javase"),
-			Maven.properties.getProperty("documented.javadoc.link.javaee"),
-			// Self
-			"com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/com.semanticcms.openfile.taglib/"
-		);
-	}
+  public SemanticCmsOpenFileTldInitializer() {
+    super(
+      Maven.properties.getProperty("documented.name") + " Reference",
+      "Taglib Reference",
+      "/openfile/taglib",
+      "/semanticcms-openfile.tld",
+      true,
+      Maven.properties.getProperty("documented.javadoc.link.javase"),
+      Maven.properties.getProperty("documented.javadoc.link.javaee"),
+      // Self
+      "com.semanticcms.openfile.taglib", Maven.properties.getProperty("project.url") + "apidocs/com.semanticcms.openfile.taglib/"
+    );
+  }
 }
