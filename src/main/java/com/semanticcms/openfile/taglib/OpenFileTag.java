@@ -40,16 +40,19 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 public class OpenFileTag extends SimpleTagSupport {
 
   private DomainName domain;
+
   public void setDomain(String domain) throws ValidationException {
     this.domain = DomainName.valueOf(Strings.nullIfEmpty(domain));
   }
 
   private Path book;
+
   public void setBook(String book) throws ValidationException {
     this.book = Path.valueOf(Strings.nullIfEmpty(book));
   }
 
   private Path path;
+
   public void setPath(String path) throws ValidationException {
     this.path = Path.valueOf(Strings.nullIfEmpty(path));
   }
@@ -57,14 +60,14 @@ public class OpenFileTag extends SimpleTagSupport {
   @Override
   public void doTag() throws JspException, IOException {
     try {
-      final PageContext pageContext = (PageContext)getJspContext();
+      final PageContext pageContext = (PageContext) getJspContext();
       OpenFile.openFile(
-        pageContext.getServletContext(),
-        (HttpServletRequest)pageContext.getRequest(),
-        (HttpServletResponse)pageContext.getResponse(),
-        domain,
-        book,
-        path
+          pageContext.getServletContext(),
+          (HttpServletRequest) pageContext.getRequest(),
+          (HttpServletResponse) pageContext.getResponse(),
+          domain,
+          book,
+          path
       );
     } catch (ServletException e) {
       throw new JspTagException(e);
