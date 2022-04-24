@@ -37,11 +37,13 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 public class OpenFileTag extends SimpleTagSupport {
 
   private String book;
+
   public void setBook(String book) {
     this.book = Strings.nullIfEmpty(book);
   }
 
   private String path;
+
   public void setPath(String path) {
     this.path = Strings.nullIfEmpty(path);
   }
@@ -49,13 +51,13 @@ public class OpenFileTag extends SimpleTagSupport {
   @Override
   public void doTag() throws JspException, IOException {
     try {
-      final PageContext pageContext = (PageContext)getJspContext();
+      final PageContext pageContext = (PageContext) getJspContext();
       OpenFile.openFile(
-        pageContext.getServletContext(),
-        (HttpServletRequest)pageContext.getRequest(),
-        (HttpServletResponse)pageContext.getResponse(),
-        book,
-        path
+          pageContext.getServletContext(),
+          (HttpServletRequest) pageContext.getRequest(),
+          (HttpServletResponse) pageContext.getResponse(),
+          book,
+          path
       );
     } catch (ServletException e) {
       throw new JspTagException(e);
