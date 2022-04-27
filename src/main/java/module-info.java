@@ -27,4 +27,4 @@ module com.semanticcms.openfile.taglib {
   requires javax.servlet.api; // <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
   requires javax.servlet.jsp.api; // <groupId>javax.servlet.jsp</groupId><artifactId>javax.servlet.jsp-api</artifactId>
   requires com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
-}
+} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
