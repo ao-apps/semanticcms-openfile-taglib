@@ -34,6 +34,21 @@ import javax.servlet.jsp.JspTagException;
 import javax.servlet.jsp.PageContext;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 
+/**
+ * Opens a file from the servlet container.
+ * This opens the file from the server-side so that the proper application
+ * may be launched with the local file, allowing direct editing and saving.
+ * <p>
+ * {@link OpenFile}
+ * must be explicitly enabled by setting the <code>com.semanticcms.openfile.servlet.OpenFile.enabled</code>
+ * context parameter to <code>true</code>.
+ * </p>
+ * <p>
+ * For security, {@link OpenFile}
+ * may only be called from localhost.  However, be careful when behind a proxy,
+ * as external proxied requests can appear to come from localhost.
+ * </p>
+ */
 public class OpenFileTag extends SimpleTagSupport {
 
   private String book;
