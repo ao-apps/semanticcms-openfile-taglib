@@ -36,15 +36,15 @@ along with semanticcms-openfile-taglib.  If not, see <https://www.gnu.org/licens
     <module.name>com.semanticcms.openfile.taglib.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-openfile-taglib</documented.artifactId>
-    <documented.name>SemanticCMS OpenFile Taglib²</documented.name>
+    <documented.name>SemanticCMS OpenFile Taglib</documented.name>
     <documented.description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS OpenFile Taglib² Book</name>
+  <name>SemanticCMS OpenFile Taglib Book</name>
   <url>https://semanticcms.com/openfile/taglib/</url>
-  <description>Documentation for SemanticCMS OpenFile Taglib² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS OpenFile Taglib in SemanticCMS format.</description>
   <inceptionYear>2013</inceptionYear>
 
   <licenses>

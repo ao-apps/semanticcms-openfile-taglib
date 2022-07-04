@@ -47,7 +47,7 @@ along with semanticcms-openfile-taglib.  If not, see <https://www.gnu.org/licens
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>SemanticCMS OpenFile Taglib²</name>
+  <name>SemanticCMS OpenFile Taglib</name>
   <url>https://semanticcms.com/openfile/taglib/</url>
   <description>SemanticCMS desktop integration mode for local content creation in a JSP environment.</description>
   <inceptionYear>2013</inceptionYear>
