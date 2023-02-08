@@ -33,6 +33,7 @@ along with semanticcms-openfile-taglib.  If not, see <https://www.gnu.org/licens
   <packaging>bundle</packaging>
 
   <properties>
+    <project.build.outputTimestamp>2023-02-08T21:06:04Z</project.build.outputTimestamp>
     <module.name>com.semanticcms.openfile.taglib.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-openfile-taglib</documented.artifactId>
