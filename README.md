@@ -24,7 +24,7 @@
 * [Changelog](https://semanticcms.com/openfile/taglib/changelog)
 * [Taglib Reference](https://semanticcms.com/openfile/taglib/semanticcms-openfile.tld/)
 * [API Docs](https://semanticcms.com/openfile/taglib/apidocs/)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.semanticcms&q=a%3Asemanticcms-openfile-taglib)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-openfile-taglib)
 * [GitHub](https://github.com/ao-apps/semanticcms-openfile-taglib)
 
 ## Contact Us
