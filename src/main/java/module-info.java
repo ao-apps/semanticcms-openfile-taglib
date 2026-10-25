@@ -21,10 +21,11 @@
  * along with semanticcms-openfile-taglib.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.openfile.taglib {
-  exports com.semanticcms.openfile.taglib;
   // Direct
   requires com.aoapps.lang; // <groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId>
   requires jakarta.servlet; // <groupId>jakarta.servlet</groupId><artifactId>jakarta.servlet-api</artifactId>
   requires jakarta.servlet.jsp; // <groupId>jakarta.servlet.jsp</groupId><artifactId>jakarta.servlet.jsp-api</artifactId>
   requires com.semanticcms.openfile.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-openfile-servlet</artifactId>
+
+  exports com.semanticcms.openfile.taglib;
 }
